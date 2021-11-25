@@ -2,7 +2,6 @@ from collections import deque
 
 
 class Solution:
-    # noinspection PyMethodMayBeStatic
     def is_palindrome(self, str1: str) -> bool:
 
         deq = deque(str1)
@@ -14,7 +13,7 @@ class Solution:
                 return False
         return True
 
-    def longest_palindrome(self, s: str) -> str:
+    def longestPalindrome(self, s: str) -> str:
 
         if len(s) == 1 or len(s) == 0:
             return s

@@ -1,6 +1,5 @@
 class Solution:
-    # noinspection PyMethodMayBeStatic
-    def reorder_logfiles(self, logs: list) -> list:
+    def reorderLogFiles(self, logs: List[str]) -> List[str]:
 
         digs = []
         lets = []
