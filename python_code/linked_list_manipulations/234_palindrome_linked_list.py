@@ -9,7 +9,7 @@ class ListNode:
         self.val = val
         self.next = next
 
-
+from collections import *
 class Solution:
     # noinspection PyMethodMayBeStatic
     def is_palindrome(self, head: optional[ListNode]) -> bool:
