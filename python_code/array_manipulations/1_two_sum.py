@@ -7,5 +7,3 @@ class Solution:
         for i in nums:
             if target - i in indexed and (nums.index(i) != indexed[target - i]):
                 return [nums.index(i), indexed[target - i]]
-
-

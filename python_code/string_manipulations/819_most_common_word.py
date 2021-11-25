@@ -2,7 +2,8 @@ import re
 
 
 class Solution:
-    def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
+    # noinspection PyMethodMayBeStatic
+    def most_common_word(self, paragraph: str, banned: list) -> str:
 
         discovered = {}
         paragraph = re.sub(r'[^\w]', ' ', paragraph).lower().split()

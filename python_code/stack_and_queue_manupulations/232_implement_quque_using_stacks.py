@@ -3,7 +3,7 @@ from collections import deque
 
 class MyQueue:
 
-    # MyQueue 클래스 생성시 stk 변수에 deque 생성후 저장  -->popleft()시에 O(1)연산이 가능하다. pop(0)하면 원소 하나씩 옆으로 땡겨야돼서  O(N)발생
+    # MyQueue 클래스 생성시 stk 변수 에 deque 생성후 저장  -->popleft()시에 O(1)연산이 가능하다. pop(0)하면 원소 하나씩 옆으로 땡겨야돼서  O(N)발생
     def __init__(self):
         self.stk = deque()
 

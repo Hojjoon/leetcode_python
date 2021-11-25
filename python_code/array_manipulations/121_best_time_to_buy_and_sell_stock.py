@@ -1,3 +1,6 @@
+import sys
+
+
 class Solution:
     # noinspection PyMethodMayBeStatic
     def max_profit(self, prices: list) -> int:
